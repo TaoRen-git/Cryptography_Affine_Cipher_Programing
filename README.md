@@ -12,14 +12,14 @@ This is an affine cipher program that allows users to encrypt, decrypt, or decip
 2. Open terminal and access the **Cryptography** folder
 
 ### Running the encrypt program
-1. There is a example in the input file ```input/input_number.txt```
-2. If you want to use other numbers, you can open and edit ```input/input_number.txt```. Format of numbers should be like [number][space][number], and end with no space
+1. There is a example in the input file ```input/input_word.txt```
+2. If you want to use other numbers, you can open and edit ```input/input_word.txt```. There is no special format of message, it just need to end with no space
 3. Choose any number for encrypt key pair ({a}, {b})
 4. Run this command under **Cryptography** folder
     ```bash
     python3 affine.py encrypt input/input_word.txt output/output_number.txt [a] [b]
     ```
-5. If ({a}, {b}) is a valid key, then the output number will store in the ```output/output_number.txt```, which should be printed out in terminal in the same time.
+5. If ({a}, {b}) is a valid key, then the output number will store in the ```output/output_number.txt```, which should be printed out in terminal in the same time
 6. If ({a}, {b}) is not a valid key, then the program should print the following message:
     ```
     "The key pair ({a}, {b}) is invalid, please select another key."
