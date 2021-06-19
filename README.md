@@ -36,7 +36,9 @@ Cryptography
     ```
 4. If ({a}, {b}) is a valid key, then the output number will store in the ```output/output_number.txt```, which should be printed out in terminal in the same time.
 5. If ({a}, {b}) is not a valid key, then the program should print the following message:
-    ```"The key pair ({a}, {b}) is invalid, please select another key."```
+    ```
+    "The key pair ({a}, {b}) is invalid, please select another key."
+    ```
 
 ### Running the decrypt program
 1. Open and edit ```input/input_number.txt```
@@ -47,7 +49,9 @@ Cryptography
     ```
 4. If ({a}, {b}) is a valid key, then the output word will store in the ```output/output_word.txt```, which should be printed out in terminal in the same time
 5. If ({a}, {b}) is not a valid key, then the program should print the following message:
-    ```"The key pair ({a}, {b}) is invalid, please select another key."```
+    ```
+    "The key pair ({a}, {b}) is invalid, please select another key."
+    ```
 
 
 ### Running the decipher program
