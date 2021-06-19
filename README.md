@@ -1,7 +1,7 @@
 # Cryptography
 
 ## Description
-This is an affine cipher program that allows users to encrypt, decrypt, or decipher plaintext files containing ASCII text which may include symbols. The program will utilize the Python3 to achieve all core functions which base on Bezout’s theorem and the extended Euclidean algorithm. For an affine cipher, users select two integers a and b as the key pair, and the program invokes them from the command line. As with the Caesar and shift ciphers, we encrypt our message character by character. Given a character of our plaintext message m, the encryption function E(m, a, b) is given by E(m, a, b) = (a · m + b) mod 128.
+This is an affine cipher program that allows users to encrypt, decrypt, or decipher plaintext files containing ASCII text which may include symbols. The program will utilize the Python3 to achieve all core functions which base on Bezout’s theorem and the extended Euclidean algorithm. For an affine cipher, users select two integers a and b as the key pair, and the program invokes them from the command line. As with the Caesar and shift ciphers, the program encrypt the message character by character. Given a character of the plaintext message m, the encryption function E(m, a, b) is given by E(m, a, b) = (a · m + b) mod 128.
 
 ---
 ## Getting Started
